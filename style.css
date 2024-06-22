@@ -1,0 +1,128 @@
+/* polices personnalisées */
+@font-face {
+    font-family:'YoungSerif-regular' ;
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    font-size: 16px;
+}
+@font-face {
+    font-family: 'Outfit-SemiBold';
+    src: url('./assets/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+@font-face {
+    font-family: 'Outfit-Thin';
+    src: url('./assets/fonts/outfit/static/Outfit-Thin.ttf');
+    font-weight: 700;
+    font-size: 16px;
+}
+/*Le corps de code css*/
+body{
+    background-color: antiquewhite;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 150px;
+    margin-bottom: -50px;
+    
+}
+/*Le corps du code*/
+#container {
+    background-color: aliceblue;
+    justify-content: center;
+    width: 60%;
+    position: absolute;
+    padding-left: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-right: 15px;
+    padding-bottom: -50px;
+    font-size: 16px;
+}
+/*le sous container*/
+#container1 {
+    padding-left: 25px;
+}
+/*Modification des images */
+img{
+    width: 90%;
+    border: 1px solid white;
+    margin-top: 25px ;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+/*Pour les titres*/
+h1 {
+    font-family: 'YoungSerif-Regular';
+    
+}
+h2{
+    font-family: 'YoungSerif-Regular';
+    font-size: 16px;
+    color: brown;
+}
+
+h3,.prepa{
+    color:purple;
+}
+/*La couleur de la numerotation des chiffres*/
+li{
+    color: brown;
+}
+/*Details listes*/
+strong,span {
+    color:rgba(45, 45, 45, 0.955);
+}
+strong,td{
+    font-family: 'Outfit-SemiBold';
+    font-size: 16px;
+
+}
+span,p,th{
+    font-family: 'Outfit-Thin';
+    font-size: 16px;
+    font-weight: 700;
+}
+/*la partie preparation*/
+#preparation {
+    background: rgba(247, 5, 255, 0.02);
+    border: solid;
+    border-color: rgba(247, 5, 255, 0.01);
+    border-radius: 8px;
+}
+/*class du h3*/
+.time{
+    padding-left: 15px;
+    font-family: 'Outfit-SemiBold';
+    font-size: 16px;
+}
+/*pour les separateurs*/
+.divider {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin: 20px;
+}
+/*tableau*/
+table{
+    border-collapse: collapse;
+    letter-spacing: 2;
+    width: 80%;
+
+}
+th{
+    text-align:left ;
+    padding-left: 20px;
+}
+td{
+    color: brown;
+
+}
+/*Pour les bordures du tableau style*/
+.border{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
